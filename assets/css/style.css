@@ -10,11 +10,13 @@ body {
   text-align: center;
 }
 
+/* ----------------------------------------- */
 #header,
 #nav {
   padding: 20px;
 }
 
+/* ----------------------------------------- */
 #header {
   background-color: #04233f;
 }
@@ -25,6 +27,7 @@ body {
   color: #1190ff;
 }
 
+/* ----------------------------------------- */
 #nav {
   background-color: #06345d;
 }
@@ -39,11 +42,15 @@ body {
   color: #fff;
 }
 
-#section-about {
+/* ----------------------------------------- */
+#section-about,
+#section-contatos,
+#section-services {
   background-color: #05192a;
   overflow: auto;
 }
 
+/* ----------------------------------------- */
 #section-about .card {
   width: 50%;
   padding: 50px;
@@ -69,11 +76,12 @@ body {
   font-weight: bold;
 }
 
-#section-services {
+/* ----------------------------------------- */
+#section-info {
   background-color: #082946;
 }
 
-#section-services .button a {
+#section-info .button a {
   display: block;
   color: white;
   background-color: #008EB9;
@@ -91,16 +99,87 @@ body {
   transition: 0.2s;
 }
 
-#section-services .button a:hover {
+#section-info .button a:hover {
   color: black;
   background-color: white;
 }
 
-#section-services,
+/* ----------------------------------------- */
+#section-services {
+  font-size: 1.1em;
+  padding: 60px;
+}
+
+#section-services h1 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#section-services h3 {
+  color: #2097ff;
+  padding: 20px 0;
+}
+
+#section-services article {
+  text-align: initial;
+
+  float: center;
+  width: 40%;
+  margin: auto;
+}
+
+#section-services li {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* ----------------------------------------- */
+#section-contatos {
+  padding: 80px;
+}
+
+#section-contatos h1, h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#section-contatos h1 {
+  font-size: 3em;
+}
+
+#section-contatos h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  width: 40%;
+  margin: auto;
+  border: 1px solid #105088;
+  background-color: #08253f;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#section-contatos a {
+  display: block;
+  font-size: 2em;
+  text-decoration: none;
+  color: #00a2ff;
+  margin-bottom: 10px;
+}
+
+#section-contatos small {
+  display: block;
+  margin-bottom: 40px;
+}
+
+/* ----------------------------------------- */
+#section-info,
 footer {
   padding: 80px;
 }
 
+/* ----------------------------------------- */
 footer {
   color: gray;
   background-color: #02111f;
